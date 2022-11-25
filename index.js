@@ -42,3 +42,24 @@ window.addEventListener("scroll", () => {
   }
 });
 
+var imagesP1 = ["./images/Project 1_2.png", "./images/Project 1_3.png"]
+
+var indexP1 = 0;
+setInterval (function(){
+  if (indexP1 === imagesP1.length) {
+    indexP1 = 0;
+  }
+  document.getElementById("imageP1").src = imagesP1[indexP1];
+  indexP1++;
+} , 5000);
+
+var imagesP2 = ["./images/Project 2_2.png", "./images/Project 2_3.png", "./images/Project 2_4.png"]
+
+var indexP2 = 0;
+setInterval (function(){
+  if (indexP2 === imagesP2.length) {
+    indexP2 = 0;
+  }
+  document.getElementById("imageP2").src = imagesP2[indexP2];
+  indexP2++;
+} , 5000);
