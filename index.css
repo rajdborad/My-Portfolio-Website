@@ -485,7 +485,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__code:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
 .work__image-box {
@@ -589,6 +589,10 @@ body:not(.user-is-tabbing) a:focus {
 
 .footer__social-link-item:not(:last-of-type) {
     margin-right: var(--gutter-small);
+}
+
+.footer__social-link-item:hover{
+    transform: scale(1.3);
 }
 
 .footer__social-image {
